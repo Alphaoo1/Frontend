@@ -1,0 +1,111 @@
+/* Get rid of default margin/padding */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: Comfortaa;
+}
+
+.header1 {
+    background-color: #333;    
+    color: white;
+    padding: 20px;
+}
+
+.header2 {
+    margin-top: 10px;
+}
+
+/* ---------------------------------------------------------------- */
+
+.button {
+    margin-top: 10px;
+    margin-left: 10px;
+
+    /* for size of button either use height and width or use padding */
+    /* height: 30px;
+    width: 75px; */
+
+    /* paddings top and side (half) */
+    padding: 15px 20px;
+
+    /* Here we define how the button should look colors and all*/
+    /* border: none; */
+    border: 1px solid transparent;
+    background-color: #333;
+    color: white;
+
+    /* Here we set the button shape */
+    border-radius: 5px;
+
+    /* Here we do animation or what happens when we hover on the button */
+    cursor: pointer;
+    transition: all 0.5s;
+    display: block;
+}
+
+.button:hover {
+    background-color:transparent;
+    color: #333;
+    border: 1px solid #333;
+}
+
+/* ---------------------------------------------------------------- */
+
+/* # for id */
+#box-1 {
+    background-color:#333;
+    color: #fff;
+    
+    /* Control padding */
+    /* padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px; */
+
+    /* If padding is same on all sides */
+    padding: 10px;
+
+    /* To create space from the previous element , create space on top*/
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+/* ---------------------------------------------------------------- */
+
+form {
+    margin: 10px;
+    margin-top: 20px;
+}
+
+form label {
+    display: block;
+    margin: 5px 0;
+}
+
+form input[type="text"],
+input[type="email"] {
+    padding: 7px 1px;
+    margin: 3px 0;
+    width: 100%;
+    border-radius: 1px solid #ccc;
+}
+
+/* ---------------------------------------------------------------- */
+
+table {
+    width: 100%;
+    border: 1px solid #333;
+    margin: auto;
+}
+
+table td, th {
+    background-color: #e2d8d8;
+}
+
+table th {
+    border-bottom: 1px solid #333;
+}
